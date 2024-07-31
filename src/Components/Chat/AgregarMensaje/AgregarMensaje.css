@@ -1,0 +1,47 @@
+/* Contenedor principal */
+.inputContainer {
+    background-color: #1e1e1f;
+    /* Fondo oscuro */
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente */
+    gap: 10px;
+    /* Espacio entre elementos */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Campo de entrada de mensaje */
+.inputMensaje {
+    background-color: #47474a;
+    /* Fondo ligeramente más claro */
+    height: 40px;
+    flex-grow: 1;
+    /* El campo de entrada ocupa todo el espacio disponible */
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    /* Espacio interno */
+    color: white;
+}
+
+/* Iconos */
+.iconsInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Espacio entre iconos */
+}
+
+/* Asegura que los iconos sean clicables */
+.iconsInput svg {
+    cursor: pointer;
+}
+
+/* Placeholder estilo */
+.inputMensaje::placeholder {
+    color: #a1a1a1;
+    /* Color del placeholder */
+}

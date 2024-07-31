@@ -1,0 +1,43 @@
+[ 
+{
+    "autor": "Ramon",
+    "texto": "Hola que tal?",
+    "estado": "visto",
+    "dia": "hoy",
+    "hora": "13:16",
+    "id": "1"
+  },
+  {
+    "autor": "yo",
+    "texto": " ¡Ramon, qué tal! ¿Cómo andás?",
+    "estado": "visto",
+    "dia": "hoy",
+    "hora": "13:15",
+    "id": "2"
+  },
+  
+  {
+    "autor": "Ramon",
+    "texto": "Todo bien, vos?",
+    "estado": "visto",
+    "dia": "hoy",
+    "hora": "13:16",
+    "id": "3"
+  },
+  {
+    "autor": "yo",
+    "texto": "Bien, todo tranquilo. ¿es verdad que tenés una colección de tarjetas rojas en tu casa?",
+    "estado": "entregado",
+    "dia": "hoy",
+    "hora": "13:17",
+    "id": "4"
+  },
+  {
+    "autor": "yo",
+    "texto": "me bloqueaste?",
+    "estado": "no entregado",
+    "dia": "hoy",
+    "hora": "13:17",
+    "id": "5"
+  }
+]

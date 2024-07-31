@@ -1,0 +1,64 @@
+.listaMensajesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    max-height: 80vh;
+    /* Ajusta según sea necesario */
+    overflow-y: auto;
+}
+
+.mensaje {
+    max-width: 60%;
+    /* Ajusta el ancho máximo del mensaje */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    word-wrap: break-word;
+}
+
+.mensaje-yo {
+    align-self: flex-end;
+    /* Alínea el mensaje a la derecha */
+    background-color: #128c7eec;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+    /* Asegura que se alinee al lado derecho */
+}
+
+/* Estilos para los mensajes de otros autores */
+.mensaje-otro {
+    align-self: flex-start;
+    /* Alínea el mensaje a la izquierda */
+    background-color: #075e54e1;
+    color: white;
+    text-align: left;
+    margin-right: auto;
+    /* Asegura que se alinee al lado izquierdo */
+}
+
+.mensaje-texto {
+    margin: 0;
+}
+
+.mensaje-estado {
+    margin: 5px 0 0 0;
+    font-size: 0.85em;
+}
+
+.mensaje-hora {
+    margin: 0;
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mensaje ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+}

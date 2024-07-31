@@ -1,0 +1,17 @@
+.headerContainer {
+    height: 60px;
+    background-color: rgba(30, 30, 31, 0.939);
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1px #4a4a4a;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.headerContainer .icon {
+    cursor: pointer;
+}
