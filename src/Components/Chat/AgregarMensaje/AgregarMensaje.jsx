@@ -23,7 +23,7 @@ const AgregarMensaje = ({ agregarMensaje }) => {
           hour: "2-digit",
           minute: "2-digit",
         }),
-        id: Date.now(), // Asegúrate de tener un id único
+        id: Date.now(),
       };
       agregarMensaje(newMessage);
       setInputState("");

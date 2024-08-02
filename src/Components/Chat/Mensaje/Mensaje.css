@@ -4,13 +4,11 @@
     gap: 10px;
     padding: 10px;
     max-height: 80vh;
-    /* Ajusta según sea necesario */
     overflow-y: auto;
 }
 
 .mensaje {
     max-width: 60%;
-    /* Ajusta el ancho máximo del mensaje */
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
@@ -22,23 +20,18 @@
 
 .mensaje-yo {
     align-self: flex-end;
-    /* Alínea el mensaje a la derecha */
     background-color: #128c7eec;
     color: white;
     text-align: right;
     margin-left: auto;
-    /* Asegura que se alinee al lado derecho */
 }
 
-/* Estilos para los mensajes de otros autores */
 .mensaje-otro {
     align-self: flex-start;
-    /* Alínea el mensaje a la izquierda */
     background-color: #075e54e1;
     color: white;
     text-align: left;
     margin-right: auto;
-    /* Asegura que se alinee al lado izquierdo */
 }
 
 .mensaje-texto {
@@ -60,5 +53,4 @@
     padding: 0;
     margin: 0;
     list-style-type: none;
-    /* Elimina los puntos de la lista */
 }

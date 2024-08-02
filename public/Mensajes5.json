@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "autor": "Joaquin",
+      "texto": "Amigo ya tengo pasaje!!",
+      "estado": "visto",
+      "dia": "hoy",
+      "hora": "09:05"
+    },  {
+        "id": 1,
+        "autor": "Joaquin",
+        "texto": "Me voy el 9 para nueva zelanda papa!!",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "09:05"
+      },
+    {
+      "id": 2,
+      "autor": "yo",
+      "texto": "Tremendo amigo!! Cuando nos juntamos??",
+      "estado": "enviado",
+      "dia": "hoy",
+      "hora": "09:07"
+    }
+  ]

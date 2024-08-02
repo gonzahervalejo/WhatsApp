@@ -1,6 +1,5 @@
 .phone {
     height: 100vh;
-    /* Ocupa toda la altura de la ventana */
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
@@ -18,12 +17,9 @@
 
 .listaMensajes {
     flex: 1;
-    /* Ocupa todo el espacio disponible */
     overflow-y: auto;
-    /* Habilita el scroll si el contenido es demasiado largo */
 }
 
 .agregarMensaje {
     margin-top: auto;
-    /* Empuja el componente hacia la parte inferior */
 }

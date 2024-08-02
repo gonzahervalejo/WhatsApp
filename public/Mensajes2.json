@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "autor": "Valentin",
+      "texto": "Amigo venis a estudiar?",
+      "estado": "visto",
+      "dia": "hoy",
+      "hora": "16:33"
+    },
+    {
+      "id": 2,
+      "autor": "yo",
+      "texto": "bro",
+      "estado": "enviado",
+      "dia": "hoy",
+      "hora": "16:42"
+    },{
+        "id": 3,
+        "autor": "yo",
+        "texto": "Estoy llegando",
+        "estado": "enviado",
+        "dia": "hoy",
+        "hora": "16:42"
+      }
+  ]

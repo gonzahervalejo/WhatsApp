@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pepito",
+    "foto": "../src/assets/img/pepi.jpg",
+    "mensajes": "Mensajes.json"
+  },
+  {
+    "id": 2,
+    "nombre": "Franco",
+    "foto": "../src/assets/img/franc.jpg",
+    "mensajes": "Mensajes1.json"
+  },  {
+    "id": 3
+    ,
+    "nombre": "Valentin",
+    "foto": "../src/assets/img/valo.jpg",
+    "mensajes": "Mensajes2.json"
+  },  {
+    "id": 4
+    ,
+    "nombre": "Romina",
+    "foto": "../src/assets/img/romi.jpg",
+    "mensajes": "Mensajes3.json"
+  },  {
+    "id": 5,
+    "foto": "../src/assets/img/merce.jpg",
+    "nombre": "Mercedes",
+    "mensajes": "Mensajes4.json"
+  },  {
+    "id": 6,
+    "nombre": "Joaquin",
+    "foto": "../src/assets/img/joac.jpg",
+    "mensajes": "Mensajes5.json"
+  }
+]

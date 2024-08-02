@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "autor": "Romina",
+      "texto": "Ya estoy en la ofii!",
+      "estado": "visto",
+      "dia": "hoy",
+      "hora": "09:05"
+    },
+    {
+      "id": 2,
+      "autor": "yo",
+      "texto": "Buen diaaa, llego en 15!",
+      "estado": "enviado",
+      "dia": "hoy",
+      "hora": "09:07"
+    }
+  ]

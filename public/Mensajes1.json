@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "autor": "yo",
+      "texto": "No sabes lo que me paso!!",
+      "estado": "visto",
+      "dia": "hoy",
+      "hora": "10:30"
+    },
+    {
+      "id": 2,
+      "autor": "Franco",
+      "texto": "Euu, que!?? Contame ya!",
+      "estado": "visto",
+      "dia": "hoy",
+      "hora": "10:55"
+    }
+  ]

@@ -1,17 +1,28 @@
 .headerContainer {
-    height: 60px;
-    background-color: rgba(30, 30, 31, 0.939);
-    border-radius: 15px 15px 0px 0px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: solid 1px #4a4a4a;
-    color: aliceblue;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    align-items: center;
+    padding: 10px;
+    background-color: #2a2a2b;
 }
 
-.headerContainer .icon {
-    cursor: pointer;
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.contactImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contactName {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.headerRight .icon {
+    color: #ffffff;
 }

@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "autor": "yo",
+      "texto": "Cuando puedas llamame porfa!",
+      "estado": "visto",
+      "dia": "hoy",
+      "hora": "20:55"
+    },
+    {
+      "id": 2,
+      "autor": "Mercedes",
+      "texto": "Euu, ya te llamo!",
+      "estado": "enviado",
+      "dia": "hoy",
+      "hora": "21:05"
+    }
+  ]
