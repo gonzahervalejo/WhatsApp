@@ -1,0 +1,74 @@
+.contactoInfoContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.contactoInfoContent {
+    background-color: #2a2a2b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contactoInfoPhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contactoInfoName {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contactoInfoNumber {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #a1a1a1;
+}
+
+.contactoInfoList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+.contactoInfoList li {
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contactoInfoList li:hover {
+    background-color: #3a3a3b;
+}

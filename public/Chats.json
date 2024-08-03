@@ -11,8 +11,7 @@
     "foto": "../src/assets/img/franc.jpg",
     "mensajes": "Mensajes1.json"
   },  {
-    "id": 3
-    ,
+    "id": 3,
     "nombre": "Valentin",
     "foto": "../src/assets/img/valo.jpg",
     "mensajes": "Mensajes2.json"

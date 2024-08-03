@@ -1,28 +1,33 @@
 .headerContainer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: #2a2a2b;
+    border-bottom: 1px solid #444;
 }
 
 .headerLeft {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
-.contactImage {
+.chatHeaderPhoto {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.contactName {
+.chatHeaderName {
     font-size: 18px;
     color: #ffffff;
 }
 
-.headerRight .icon {
-    color: #ffffff;
+.headerRight {
+    margin-left: auto;
+}
+
+.icon {
+    color: #a1a1a1;
 }

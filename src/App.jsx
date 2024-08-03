@@ -1,16 +1,31 @@
-import React from "react";
-import "./App.css";
-import ChatScreen from "./Screens/ChatScreen";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import Dashboard from "./Components/Chat/Dashboard/Dashboard";
+import ChatScreen from "./Screens/ChatScreen";
+import "./App.css";
 
-function App() {
+const App = () => {
+  const [chatId, setChatId] = useState(null);
+
   return (
-    <div>
+    <div className="appContainer">
+      <Dashboard setChatId={setChatId} />
       <Routes>
-        <Route path="/" element={<ChatScreen />} />
+        <Route
+          path="/"
+          element={
+            <div className="initialScreen">Bienvenido a la aplicación</div>
+          }
+        />
+        {chatId && (
+          <Route
+            path={`/chat/${chatId}`}
+            element={<ChatScreen chatId={chatId} />}
+          />
+        )}
       </Routes>
     </div>
   );
-}
+};
 
 export default App;

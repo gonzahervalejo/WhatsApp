@@ -1,22 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ChatHeader.css";
 import { IoSearchOutline } from "react-icons/io5";
+import ContactoInfo from "../ContactoInfo/ContactoInfo";
 
 const ChatHeader = ({ nombre, foto }) => {
-  const imagenDeMarcador = "url/to/placeholder-image.png";
+  const [showInfo, setShowInfo] = useState(false);
+
+  const handleOpenInfo = () => {
+    setShowInfo(true);
+  };
+
+  const handleCloseInfo = () => {
+    setShowInfo(false);
+  };
+
   return (
     <div className="headerContainer">
-      <div className="headerLeft">
-        <img
-          src={foto || imagenDeMarcador}
-          alt={nombre}
-          className="contactImage"
-        />
-        <span className="contactName">{nombre}</span>
+      <div className="headerLeft" onClick={handleOpenInfo}>
+        <img src={foto} alt={`${nombre}'s photo`} className="chatHeaderPhoto" />
+        <div className="chatHeaderName">{nombre}</div>
       </div>
       <div className="headerRight">
         <IoSearchOutline size={30} className="icon" />
       </div>
+      {showInfo && (
+        <ContactoInfo contacto={{ nombre, foto }} onClose={handleCloseInfo} />
+      )}
     </div>
   );
 };

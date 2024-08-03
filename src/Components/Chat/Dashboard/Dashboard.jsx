@@ -1,8 +1,10 @@
-import "./Dashboard.css";
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import "./Dashboard.css";
 
 const Dashboard = ({ setChatId }) => {
   const [chats, setChats] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const cargarChats = async () => {
@@ -16,6 +18,7 @@ const Dashboard = ({ setChatId }) => {
 
   const handleChatSelect = (id) => {
     setChatId(id);
+    navigate(`/chat/${id}`);
   };
 
   return (
@@ -43,4 +46,5 @@ const Dashboard = ({ setChatId }) => {
     </div>
   );
 };
+
 export default Dashboard;
